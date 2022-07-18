@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: darkgray;
+}
+
+h1 {
+    margin: 2rem;
+    color: white;
+}
+
+.pokeLayout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.pokeCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 0.5rem;
+    color: black;
+    padding: 5rem;
+    width: 50%;
+    font-size: large;
+}
+
+.pokePicture {
+    width: 250px;
+    height: 250px;
+}
